@@ -1,3 +1,14 @@
+Part I
+====================
+
+** Modifications
+- Added viewport meta tag to make the page mobile friendly.
+- Added CSS link tag to import custom CSS scripts.
+
+** Files
+- gutenberg/styles contains SCSS source css files. They are not used.
+- gutenberg/styles.css is the compiled css file which is actually used by HTML files.
+
 Assignment: CSS Hell
 ====================
 
