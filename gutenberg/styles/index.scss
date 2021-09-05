@@ -1,0 +1,23 @@
+@use 'layout';
+@use 'typography';
+@import 'variables';
+
+
+* {
+    box-sizing: border-box;
+}
+
+// theming
+body {
+    background-color: #f4f3f0;
+}
+
+p, td, tr, span, div {
+    color: $p-color;
+}
+
+h1, h2, h3, h4 {
+    color: $h2-hint-color;
+}
+
+

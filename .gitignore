@@ -1,3 +1,6 @@
+# scss source map
+*.css.map
+
 *.py[cod]
 
 # C extensions

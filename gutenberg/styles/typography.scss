@@ -1,0 +1,37 @@
+@import 'variables';
+// Merriweather serif font, licensed under Open Font License
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+// root element font size determines `rem` size. default 1rem = 16px
+html {
+  font-size: 16px; // 16px default, 1rem
+}
+
+* {
+  font-family: "Merriweather", serif;
+}
+
+p {
+  font-size: 1.15rem;
+  line-height: 2.2rem;
+}
+
+// drop cap for beginning of each chapter: https://en.wikipedia.org/wiki/Initial
+h2 + p {
+  &::first-letter {
+    font-size: 4rem;
+    float: left;
+    margin-right: 0.5rem; // some space between normal text 
+    margin-top: 0.4rem; // move the letter down a bit to align with normal text
+    color: $dropcap-hint-color;
+  }
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
