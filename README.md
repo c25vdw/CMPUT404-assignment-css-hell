@@ -1,16 +1,18 @@
-Part I
-====================
+## Part I
 
-** Modifications
+Modifications
 - Added viewport meta tag to make the page mobile friendly.
 - Added CSS link tag to import custom CSS scripts.
 
-** Files
+Files
 - gutenberg/styles contains SCSS source css files. They are not used.
 - gutenberg/styles.css is the compiled css file which is actually used by HTML files.
 
-Assignment: CSS Hell
-====================
+## Part II
+
+ugly.html has its css embedded in html page. Although it inherits some css from the good one it definitely is not making good use of it.
+
+## Assignment: CSS Hell
 
 You will skin 3 project gutenberg stories with custom CSS.
 
